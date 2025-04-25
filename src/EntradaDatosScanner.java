@@ -17,6 +17,5 @@ public class EntradaDatosScanner {
         };
         System.out.println("numero ingresado: " +nEntero);
 
-
     }
 }
