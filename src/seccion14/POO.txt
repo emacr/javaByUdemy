@@ -1,0 +1,32 @@
+inico de poo
+
+una clase no puede ser private solo public (visibilidad) modifcadores de acceso
+los modificadores son tanto para atributos como para metodos
+
+dentro de una clase nunca se debe imprimir datos u objeto q representa datos
+
+sobrecarga de metodos = mismo nombre de metodo pero con diferente tipos de datos en referencia ()
+
+poliformismo = diferentes formas de hacer lo mismo eje:
+ public float calcularConsumo(int km, float porcentajeGas){
+        return km/(this.capacidadTanque*porcentajeGas);
+    }
+        public float calcularConsumo(int km, int porcentajeGas){
+        return km/(this.capacidadTanque*(porcentajeGas/100f));
+    }
+  una devuelve float y el otro devuelve int pero hacen lo msimo
+
+  los atributos de la clase siempre debe ser privados
+
+
+  enum = parecido a las clases pero q contienen valores constantes atributos del tipo final
+  (para crearlo agrego nueva clase java class enum ->nombre lsito
+
+
+
+  relacion de dependencias = relaciono objetos con otro, por ejemplo automovil con motor,persona, llantas,etc, no es relacion de asoacion ya q no son atributos de la clase main
+  pero si son atributos de la clase automovil
+
+
+  el metodo add es mas utilizado q el metdo set cuando se trata de agregar elementos de una coleccion,
+  ya q add lo va agregando 1  a 1
