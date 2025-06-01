@@ -30,3 +30,6 @@ poliformismo = diferentes formas de hacer lo mismo eje:
 
   el metodo add es mas utilizado q el metdo set cuando se trata de agregar elementos de una coleccion,
   ya q add lo va agregando 1  a 1
+
+  //herencia
+  cuandoun atributo de clase padre es protected sus hijos pueden accederla
