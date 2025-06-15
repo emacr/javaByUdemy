@@ -9,8 +9,8 @@ public class Alumno extends Persona{
 
     //constructor
     public Alumno(String nombre, String apellido, int edad, String email, String institucion, double notaMate, double notaIngles, double notaHistoria) {
-        super(nombre, apellido, edad, email); //heredo los atributos del padre
-        //ahora van los atributos del alumno
+        super(nombre, apellido, edad, email); //heredo los atributos del padre (Persona) con la palabra reservada Super
+        //ahora van los atributos propios del alumno
         this.institucion = institucion;
         this.notaMate = notaMate;
         this.notaIngles = notaIngles;
@@ -22,7 +22,7 @@ public class Alumno extends Persona{
 
 //
 //    public Alumno(){
-//        super(); //llamar al constructor del padre
+//        super(); //llamar solo al constructor del padre
 //    };
 
 
@@ -58,4 +58,16 @@ public class Alumno extends Persona{
     public void setNotaHistoria(double notaHistoria) {
         this.notaHistoria = notaHistoria;
     }
+
+    //metodos
+    //sobre escritura de metodos heredado del padre
+
+    @Override
+    public String saludar() { //metodo del padre
+        return super.saludar() + " ,soy un alumno y mi nombre es: "+getNombre();
+    }
+
+
+
+
 }

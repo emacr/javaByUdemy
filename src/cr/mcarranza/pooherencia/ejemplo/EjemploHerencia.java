@@ -12,7 +12,7 @@ public class EjemploHerencia {
 
         System.out.println(a.getNombre());
 
-        Profesor p =  new Profesor("Carlos","mena",13,"an@gmail.com");
+        Profesor p =  new Profesor(); //en la clase profesor pase el constructor vacio
         p.setAsignatura("mate");
 
         System.out.println(p); //solo imprimo p x el to string modificado
@@ -24,6 +24,17 @@ public class EjemploHerencia {
         ae.setNotaIdiomas(90.4);
 
         System.out.println(ae);
+
+        System.out.println();
+
+        //imprmir la sobreescritura del metodo saludar
+        System.out.println(a.saludar()); //alumno
+        System.out.println(p.saludar()); //profesor
+        System.out.println(ae.saludar()); //alumno inter
+
+
+
+
 
 
 

@@ -1,6 +1,7 @@
 package cr.mcarranza.pooherencia;
 
 public class Persona {
+    //atirbutos
     private String nombre;
     private String apellido;
     private int edad;
@@ -51,4 +52,12 @@ public class Persona {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
+    //metodos
+    public String saludar(){
+        return "Hola";
+    }
+
+
 }

@@ -41,4 +41,16 @@ public class AlumnoExtranjero extends Alumno{
                 ", notaIdiomas: " + notaIdiomas
                 ;
     }
+
+    //metodos
+    //metodo del padre Persona
+
+
+    @Override
+    public String saludar() {
+      //  return super.saludar()+" ,soy alumno internacional de "+getPais();
+      //si dejo el super por defecto me concatena lo q tenga la herencia
+        return "hi, soy alumno internacional de "+getPais(); //asi lo modifico sin q me salga lo q tiene escrito la clas padre
+
+    }
 }

@@ -33,3 +33,6 @@ poliformismo = diferentes formas de hacer lo mismo eje:
 
   //herencia
   cuandoun atributo de clase padre es protected sus hijos pueden accederla
+
+  si coloco el modificador final en una clase esta no podra tener herencia
+  al igual en un metodo de una clase
